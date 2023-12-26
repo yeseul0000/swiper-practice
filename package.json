@@ -1,0 +1,18 @@
+{
+  "name": "market-kurly",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+	  "start": "npm run dev --open",
+	  "dev": "vite --host localhost --port 3000 --cors",
+	  "build": "vite build",
+	  "preview": "vite preview"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "vite": "^5.0.10"
+  }
+}
